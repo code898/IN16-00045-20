@@ -1,0 +1,107 @@
+            body {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Poppins", sans-serif;
+                background: linear-gradient(46deg, rgb(85, 113, 206), rgb(2, 25, 44));
+                text-decoration: solid;
+            }
+            
+            body h1 {
+                color: rgb(0, 0, 0);
+                font-weight: 100;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: large;
+                text-align: center;
+                height: 70px;
+            }
+            
+            #p1 {
+                text-align: center;
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                font-weight: 100;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: large;
+                text-align: center;
+            }
+            
+            .video {
+                background-attachment: fixed;
+                background-color: rgb(13, 13, 187);
+                size: 0ch;
+                height: auto;
+                width: 100%;
+            }
+            
+            .nav {
+                float: left;
+                border-top: cyan;
+                background-color: rgb(63, 19, 104);
+                display: block;
+                top: 0%;
+                left: 0%;
+                height: 70px;
+                width: 100%;
+                text-decoration: none;
+            }
+            
+            .nav ul {
+                margin: 10px;
+                padding: 10px;
+                list-style-type: none;
+            }
+            
+            .nav ul li {
+                float: right;
+                text-align: center;
+                border-left: 1px solid blue;
+            }
+            
+            .nav li:last-child {
+                border: none;
+            }
+            
+            .nav ul li a {
+                padding: 10px;
+                background: rgb(204, 82, 204);
+            }
+            
+            .nav ul li a :hover {
+                background: greenyellow;
+                color: solid black;
+            }
+            
+            .nav .active {
+                background: greenyellow;
+                color: solid black;
+            }
+            
+            .p {
+                text-emphasis: none;
+                text-align: center;
+                text-decoration: wavy;
+                font-style: italic;
+                font-size: large;
+                color: rgba(4, 18, 37, 0.822);
+                text-transform: capitalize;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .footer {
+                background-color: rgb(15, 34, 141);
+                text-align: center;
+                font: 1em sans-serif;
+                float: inline-end;
+                display: block;
+                height: 200px;
+                margin-top: 400px;
+                color: rgb(12, 32, 145);
+                margin-bottom: 0%;
+            }
+            
+            .footer li {
+                list-style: none;
+            }
+            
+            #vid {}

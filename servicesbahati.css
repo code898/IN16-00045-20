@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(238, 231, 231);
+    background-image: -moz-element();
+    background-position: 0%;
+    border: 0ch;
+}
+
+header h2 {
+    margin: 90px;
+    text-align: center;
+    text-decoration: solid;
+}
+
+.serve {
+    float: inline-start;
+    text-decoration: aqua;
+    top: auto;
+    text-align: center;
+    margin: 90;
+}
+
+.serve ul {
+    list-style: none;
+}
+
+.serve ul li {
+    margin-top: auto;
+    text-align: center;
+    float: inline-start;
+    border: 0ch;
+    background-image: none;
+}
+
+.nav {
+    float: left;
+    border-top: cyan;
+    background-color: rgb(240, 180, 16);
+    display: block;
+    top: 0%;
+    left: 0%;
+    height: 70px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.nav ul {
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.nav ul li {
+    float: right;
+    text-align: center;
+    border-left: 1px solid blue;
+}
+
+.nav li:last-child {
+    border: none;
+}
+
+.nav ul li a {
+    padding: 10px;
+    background: rgb(204, 82, 204);
+}
+
+.nav ul li a :hover {
+    background: greenyellow;
+    color: solid black;
+}
+
+.nav .active {
+    background: greenyellow;
+    color: solid black;
+}
